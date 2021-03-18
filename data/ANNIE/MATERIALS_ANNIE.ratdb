@@ -125,6 +125,19 @@ elements: ["Gadolinium","Oxygen","Sulphur"],
 elemprop: [0.5161, 0.3231, 0.1608],
 }
 
+// Gadolinium sulfate octahydrate
+{
+name: "MATERIAL",
+index: "gadolinium_sulfate_octahydrate",
+valid_begin : [0, 0],
+valid_end : [0, 0],
+density: 4.00, //estimate, since iron sulfate is 3.65 g/cm3
+nelements: 0,
+nmaterials: 2,
+materials: ["gadolinium_sulfate","water"],
+matprop: [0.8070, 0.1930],
+}
+
 // Gadolinium chloride
 {
 name: "MATERIAL",
@@ -175,7 +188,7 @@ valid_end : [0, 0],
 density: 1.0,
 nelements: 0,
 nmaterials: 2,
-materials: ["water","gadolinium_sulfate"],
+materials: ["water","gadolinium_sulfate_octahydrate"],
 matprop: [0.998, 0.002],
 }
 
